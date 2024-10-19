@@ -1,5 +1,6 @@
 package com.development.moon.dev.model;
 
+
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -12,20 +13,12 @@ import lombok.*;
 @EqualsAndHashCode
 
 @Entity
-@Table(name = "admins")
-public class Admin {
-
+@Table(name = "role")
+public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String login;
-    private String password;
     private String name;
-
-    @OneToOne
-    @ToString.Exclude
-    @JoinColumn(name = "role_id")
-    private Role role;
-
+    private Integer level;
 
 }

@@ -1,7 +1,10 @@
 package com.development.moon.dev.model;
 
+
 import jakarta.persistence.*;
 import lombok.*;
+
+import java.util.Date;
 
 @Data
 @AllArgsConstructor
@@ -12,20 +15,15 @@ import lombok.*;
 @EqualsAndHashCode
 
 @Entity
-@Table(name = "admins")
-public class Admin {
+@Table(name = "user_responses")
+public class UserResponses {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String login;
-    private String password;
     private String name;
-
-    @OneToOne
-    @ToString.Exclude
-    @JoinColumn(name = "role_id")
-    private Role role;
-
-
+    private String email;
+    private String number;
+    private String message_res;
+    private Date response_time;
 }
