@@ -7,8 +7,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 @RequestMapping("/auth")
 public class AuthController {
 
@@ -18,7 +19,7 @@ public class AuthController {
     @PostMapping("/reg")
     public String Login(@RequestBody Admin admin){
         adminService.save(admin);
-        return "Success registration.";
+        return "Admin registered successfully";
     }
 
 

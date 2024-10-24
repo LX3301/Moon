@@ -6,7 +6,7 @@ import com.development.moon.dev.model.UserResponses;
 import java.util.List;
 
 
-public interface UserResponsesRepository {
+public interface UserResponsesService {
 
     UserResponses save(UserResponses ur);
 
