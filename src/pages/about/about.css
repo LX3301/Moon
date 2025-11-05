@@ -1,0 +1,175 @@
+.a-container {
+  width: 100%;
+  max-width: 1920px;
+  background-color: white;
+}
+.a-section-one {
+  width: 100%;
+  max-width: 1920px;
+  height: 870px;
+  background: url("img/team1.png");
+  background-size: cover;
+  background-position: center;
+}
+.a-one-h2 {
+  position: absolute;
+  width: 304px;
+  height: 78px;
+  left: 350px;
+  top: 278px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.a-one-p {
+  position: absolute;
+  width: 524px;
+  height: 46px;
+  left: 350px;
+  top: 396px;
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.a-one-h1 {
+  position: absolute;
+  width: 1298px;
+  height: 244px;
+  left: 604px;
+  top: 776px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates;
+  font-size: 200px;
+  font-weight: 700;
+  line-height: 244px;
+  letter-spacing: 0%;
+  text-align: left;
+  overflow: hidden;
+}
+.a-section-two {
+  width: 100%;
+  max-width: 1920px;
+  height: 1730px;
+}
+.a-two-p {
+  position: absolute;
+  width: 1182px;
+  height: 130px;
+  left: 369px;
+  top: 1128px;
+  color: rgb(0, 0, 0);
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.a-two-img {
+  position: absolute;
+  width: 1220px;
+  height: 575px;
+  left: 350px;
+  top: 1366px;
+}
+
+.a-two-features-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #fff;
+  position: absolute;
+
+  left: 380px;
+  top: 2028px;
+}
+
+.a-two-feature-card {
+  text-align: center;
+  max-width: 380px;
+  margin-right: 24px;
+}
+
+.a-two-feature-icon {
+  width: 211px;
+  height: 211px;
+  margin-bottom: 20px;
+}
+
+.a-two-feature-title {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat Alternates;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0%;
+
+  margin-bottom: 18px;
+}
+
+.a-two-feature-description {
+  color: rgb(0, 0, 0);
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.a-two-h1 {
+  position: absolute;
+  width: 1178px;
+  height: 244px;
+  left: 0;
+  top: 2507px;
+  color: rgb(53, 67, 94);
+  font-family: Montserrat Alternates;
+  font-size: 200px;
+  font-weight: 700;
+  line-height: 244px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.a-section-three {
+  background: rgb(53, 67, 94);
+
+  width: 100%;
+  max-width: 1920px;
+  height: 1320px;
+}
+.a-three-h2 {
+  position: absolute;
+  width: 805px;
+  height: 156px;
+  left: 350px;
+  top: 2851px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.a-three-h1 {
+  position: absolute;
+  width: 1130px;
+  height: 244px;
+  left: 770px;
+  top: 3826px;
+  color: rgb(127, 157, 221);
+  font-family: Montserrat Alternates;
+  font-size: 200px;
+  font-weight: 700;
+  line-height: 244px;
+  letter-spacing: 0%;
+  text-align: left;
+}

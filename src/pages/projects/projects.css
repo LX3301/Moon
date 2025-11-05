@@ -1,0 +1,108 @@
+.p-container {
+  width: 100%;
+  max-width: 1920px;
+  background-color: white;
+}
+.p-section-one {
+  width: 100%;
+  max-width: 1920px;
+  height: 693px;
+  background-image: url("img/Rectangle.png");
+  background-size: cover;
+  background-position: center;
+}
+.p-one-h2 {
+  position: absolute;
+  width: 575px;
+  height: 78px;
+  left: 350px;
+  top: 278px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.p-one-p {
+  position: absolute;
+  width: 387px;
+  height: 46px;
+  left: 350px;
+  top: 397px;
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.p-section-two {
+  width: 100%;
+  max-width: 1920px;
+  height: 2068px;
+  background: rgb(53, 67, 94);
+}
+.p-two-h3 {
+  /* Our latest case studies */
+  position: absolute;
+  width: 771px;
+  height: 78px;
+  left: 350px;
+  top: 952px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.p-two-p {
+  /* We create high-quality software for enterprises and startups with high ambitions */
+  position: absolute;
+  width: 1105px;
+  height: 52px;
+  left: 350px;
+  top: 1071px;
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.p-two-h1 {
+  /* Contact us */
+  position: absolute;
+  width: 1130px;
+  height: 244px;
+  left: 770px;
+  top: 2667px;
+  color: rgb(127, 157, 221);
+  font-family: Montserrat Alternates;
+  font-size: 200px;
+  font-weight: 700;
+  line-height: 244px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.p-two-group {
+  position: absolute;
+  left: 349px;
+  top: 1270px;
+}
+.p-two-group img {
+  width: 560px;
+  height: 553px;
+  margin-right: 102px;
+  margin-bottom: 102px;
+}
+.p-section-three{
+  width: 100%;
+  max-width: 1920px;
+  height: 1080px;
+}

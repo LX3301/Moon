@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Montserrat"; 
+  src: url("../fonts/MontserratAlternates-Bold.ttf") format(ttf);
+}
+@font-face {
+    font-family: "JostRegular";
+    src: url("../fonts/Jost-Regular.ttf") format(ttf);
+}
+@font-face {
+    font-family: "JostMedium";
+    src: url("../fonts/Jost-Medium.ttf") format(ttf);
+}
+ 
+ 

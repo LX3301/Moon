@@ -1,0 +1,62 @@
+.a-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.a-carousel-profiles {
+  display: flex;
+  gap: 30px;
+  transition: transform 0.5s ease-in-out;
+
+  position: absolute;
+
+  left: 450px;
+  top: 3149px;
+}
+
+.a-profile-card {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.a-profile-image {
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.a-profile-name {
+  font-size: 1.2em;
+  margin: 10px 0 5px;
+}
+
+.a-profile-role {
+  font-size: 0.9em;
+  color: #d1d5db;
+}
+
+.a-carousel-button {
+  border: 2px solid rgb(53, 67, 94);
+  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  background: rgb(217, 217, 217);
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin-right: 23px;
+  position: relative;
+  left: 500px;
+  top: 162px;
+}
+
+.a-carousel-button:hover {
+  color: #d1d5db;
+}

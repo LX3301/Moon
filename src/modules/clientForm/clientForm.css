@@ -1,0 +1,220 @@
+.container {
+  width: 100%;
+  max-width: 1920px;
+  height: 1080px;
+  background-color: rgb(127, 157, 221);
+  padding: 20px;
+}
+
+h4 {
+  position: relative;
+  width: 365px;
+  height: 118px;
+  left: 437px;
+  right: 1118px;
+  top: 165px;
+  bottom: 999px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.p-head {
+  position: relative;
+  width: 292px;
+  height: 29px;
+  left: 437px;
+  top: 211px;
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  font-family: "Jost", sans-serif;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  top: 284px;
+  left: 402px;
+  margin-bottom: 40px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.contact-text {
+  color: rgb(0, 0, 0);
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.contact-label {
+  color: rgb(0, 0, 0);
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.form-container {
+  width: 1030px;
+  height: 960px;
+  border-radius: 50px 0px 0px 0px;
+  background: rgb(217, 217, 217);
+  padding: 70px 70px 0;
+  position: relative;
+  left: 853px;
+  bottom: 528px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.top-rectangle {
+  width: 958px;
+  height: 29px;
+  border-radius: 50px 0px 0px 0px;
+  position: absolute;
+  background: rgb(53, 67, 94);
+  top: -30px;
+}
+.form-box {
+  display: flex;
+  gap: 20px;
+}
+.form-left,
+.form-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container h2 {
+  width: 493px;
+  height: 59px;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat Alternates";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group:first-of-type {
+  margin-top: 30px;
+}
+.form-group label {
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group-message label {
+  width: 224px;
+  height: 58px;
+  display: flex;
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.form-group input::placeholder,
+.form-group-message textarea::placeholder {
+  color: rgb(112, 138, 195);
+  padding-left: 10px;
+}
+.form-group input,
+.form-group-message textarea {
+  width: 270px;
+  height: 60px;
+  border-radius: 10px;
+  background: rgb(84, 103, 145);
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.form-group input {
+  margin-bottom: 51px;
+}
+
+.form-group-message {
+  margin-bottom: 20px;
+  margin-left: 53px;
+}
+
+.form-group-message textarea {
+  width: 270px;
+  height: 390px;
+  resize: none;
+}
+.form-right {
+  margin-top: 29px;
+}
+.form-left {
+  margin-top: 24px;
+}
+.submit-button {
+  width: 190px;
+  height: 60px;
+  background-color: black;
+
+  border: none;
+  border-radius: 8px;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0%;
+
+  position: absolute;
+  left: 70px;
+  bottom: 157px;
+}
+
+.submit-button:hover {
+  background-color: #333;
+}

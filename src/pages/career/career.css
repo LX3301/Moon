@@ -1,0 +1,126 @@
+.c-container {
+  width: 100%;
+  max-width: 1920px;
+  background-color: white;
+}
+.c-section-one {
+  width: 100%;
+  max-width: 1920px;
+  height: 693px;
+  background-image: url("img/career.png");
+  background-size: cover;
+  background-position: center;
+}
+.c-one-h2 {
+  /* Invite you to become a part of Moon`s family */
+  position: absolute;
+  width: 910px;
+  height: 233px;
+  left: 350px;
+  top: 278px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.c-one-p {
+  /* Work together with Moon Software */
+  position: absolute;
+  width: 387px;
+  height: 23px;
+  left: 350px;
+  top: 488px;
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.c-section-two {
+  width: 100%;
+  max-width: 1920px;
+  height: 872px;
+  background: rgb(53, 67, 94);
+}
+.c-two-h4 {
+  /* We are looking for: */
+  position: absolute;
+  width: 694px;
+  height: 78px;
+  left: 350px;
+  top: 843px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 78px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.c-two-content {
+  width: 1220px;
+  height: 500px;
+  position: absolute;
+  display: flex;
+  left: 350px;
+  top: 971px;
+}
+.c-two-card {
+  width: 560px;
+  height: 500px;
+  border-radius: 20px;
+  background: rgb(217, 217, 217);
+  margin-right: 100px;
+}
+.c-card-h3 {
+  color: rgb(0, 0, 0);
+  font-family: Jost;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 46px;
+  margin-top: 47px;
+}
+.c-two-span {
+  color: rgb(0, 0, 0);
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: left;
+  font-weight: bold;
+}
+.c-two-p {
+  margin-left: 46px;
+  width: 420px;
+  color: rgb(0, 0, 0);
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.c-two-h1 {
+  /* Contact us */
+  position: absolute;
+  width: 1130px;
+  height: 244px;
+  left: 770px;
+  top: 1471px;
+  color: rgb(127, 157, 221);
+  font-family: Montserrat Alternates;
+  font-size: 200px;
+  font-weight: 700;
+  line-height: 244px;
+  letter-spacing: 0%;
+  text-align: left;
+}

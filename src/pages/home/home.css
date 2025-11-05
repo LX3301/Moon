@@ -1,0 +1,383 @@
+.section-one {
+  width: 100%;
+  max-width: 1920px;
+  height: 1167px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 50px;
+  background-image: url("img/person.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.content {
+  z-index: 2;
+}
+h1 {
+  font-size: 4rem;
+
+  color: white;
+  font-weight: 700;
+  margin: 0;
+  left: 350px;
+  top: 262px;
+  position: absolute;
+}
+.top-btn {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  top: 569px;
+  left: 350px;
+}
+.contact-btn,
+.services-btn {
+  display: flex;
+
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-family: "Montserrat Alternates";
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  font-weight: 700;
+  line-height: 29px;
+  text-decoration: none;
+}
+.contact-btn {
+  background-color: #7f9ddd;
+  color: black;
+}
+.services-btn {
+  background-color: black;
+  color: #7f9ddd;
+}
+.contact-btn:hover {
+  background-color: #357abd;
+}
+.services-btn:hover {
+  background-color: #333;
+}
+.about {
+  font-size: 12.5rem;
+  font-weight: 700;
+  font-family: "Montserrat Alternates";
+  color: white;
+  position: absolute;
+  /* font-size: 200px; */
+  line-height: 244px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0;
+  left: 10px;
+  bottom: -50px;
+}
+
+.section-two {
+  width: 100%;
+  max-width: 1920px;
+  height: 816px;
+  display: flex;
+  background-color: white;
+}
+.teams-img {
+  width: 580px;
+  height: 541px;
+  position: absolute;
+  left: 350px;
+  margin-top: 81px;
+}
+.section-two h2 {
+  position: absolute;
+  width: 472px;
+  height: 118px;
+  left: 949px;
+  top: 1412px;
+
+  font-family: "Montserrat Alternates";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.section-two p {
+  position: absolute;
+  width: 621px;
+  height: 208px;
+  left: 949px;
+  top: 1543px;
+  color: rgb(0, 0, 0);
+  font-family: "Jost";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.about-btn {
+  position: absolute;
+
+  background-color: #7f9ddd;
+
+  padding: 10px 20px;
+  font-size: 24px;
+  font-family: "Montserrat Alternates";
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  font-weight: 700;
+
+  text-decoration: none;
+  color: white;
+  left: 949px;
+  margin-top: 500px;
+}
+.section-two h1 {
+  position: absolute;
+  width: 908px;
+  height: 244px;
+  left: 980px;
+  margin-top: 1627px;
+  color: rgb(53, 67, 94);
+  font-family: "Montserrat Alternates";
+  font-size: 200px;
+  font-weight: 700;
+  line-height: 244px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.section-three {
+  width: 100%;
+  max-width: 1920px;
+  height: 1850px;
+  display: flex;
+  background: rgb(53, 67, 94);
+  overflow: hidden;
+}
+.section-three h2 {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  position: absolute;
+  width: 871px;
+  height: 78px;
+  left: 350px;
+  top: 2206px;
+}
+.section-three p {
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+  position: absolute;
+  width: 1220px;
+  height: 115px;
+  left: 350px;
+  top: 2314px;
+}
+.map {
+  position: absolute;
+  width: 1351px;
+  height: 1177px;
+  left: 311px;
+  right: 258px;
+  top: 2422px;
+  bottom: 4839px;
+  background: url("img/map.png");
+}
+.section-three h1 {
+  width: 970px;
+  height: 244px;
+  left: 0;
+  top: 3739px;
+  color: rgb(127, 157, 221);
+  font-family: Montserrat Alternates;
+  font-size: 200px;
+  font-weight: 700;
+  line-height: 244px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.section-three h3 {
+  position: relative;
+  width: 594px;
+  height: 49px;
+  left: 970px;
+  top: 1500px;
+
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.section-four {
+  width: 100%;
+  max-width: 1920px;
+  height: 1052px;
+  background: rgb(127, 157, 221);
+  overflow: hidden;
+}
+.h-carousel-service {
+  width: 1053px;
+  height: 475px;
+  position: relative;
+  left: 435px;
+  padding-top: 190px;
+}
+.h-carousel-service img {
+  width: 1053px;
+  height: 475px;
+}
+.h-carousel-service button {
+  width: 50px;
+  height: 50px;
+  left: 1010px;
+  bottom: -50px;
+  margin: 20px;
+  border: 2px solid rgb(53, 67, 94);
+  border-radius: 20px;
+
+  background: rgb(217, 217, 217);
+  color: white;
+
+  cursor: pointer;
+  transition: color 0.3s ease;
+  border-radius: 20px;
+  position: relative;
+}
+.h-carousel button img {
+  width: 20px;
+  height: 20px;
+}
+.section-four h1 {
+  position: relative;
+  width: 1034px;
+  height: 244px;
+  left: 886px;
+  margin-top: 121px;
+  color: white;
+  font-family: Montserrat Alternates;
+  font-size: 200px;
+  font-weight: 700;
+  line-height: 244px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.section-five {
+  width: 100%;
+  max-width: 1920px;
+  height: 898px;
+  background: white;
+  overflow: hidden;
+}
+.section-five h3 {
+  position: relative;
+  width: 575px;
+  height: 78px;
+  left: 345px;
+  top: 158px;
+  color: rgb(0, 0, 0);
+  font-family: Montserrat Alternates;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.carousel-feedback {
+  width: 100%;
+  height: 314px;
+  position: relative;
+  left: 350px;
+  top: 293px;
+}
+.carousel-feedback img {
+  width: 1133px;
+  height: 314px;
+  position: relative;
+}
+.carousel-feedback button {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  left: 1110px;
+  margin: 20px;
+  bottom: 530px;
+
+  border: 2px solid rgb(53, 67, 94);
+  border-radius: 20px;
+}
+.section-five h1 {
+  width: 446px;
+  height: 244px;
+  left: 0;
+  color: rgb(53, 67, 94);
+  font-family: Montserrat Alternates;
+  font-size: 200px;
+  font-weight: 700;
+  line-height: 244px;
+  letter-spacing: 0%;
+  text-align: left;
+  position: relative;
+  margin-top: 50px;
+}
+.section-six {
+  width: 100%;
+  max-width: 1920px;
+  height: 1273px;
+  background: rgb(53, 67, 94);
+}
+.section-six h2 {
+  position: relative;
+  width: 956px;
+  height: 78px;
+  left: 350px;
+  top: 121px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 200px;
+}
+.section-six h4 {
+  width: 1130px;
+  height: 244px;
+  color: rgb(127, 157, 221);
+  font-family: Montserrat Alternates;
+  font-size: 200px;
+  font-weight: 700;
+  line-height: 244px;
+  letter-spacing: 0%;
+  text-align: left;
+  position: absolute;
+  left: 770px;
+  top: 6962px;
+}
+.section-sevev {
+  width: 100%;
+  max-width: 1920px;
+
+  background: rgb(53, 67, 94);
+}
